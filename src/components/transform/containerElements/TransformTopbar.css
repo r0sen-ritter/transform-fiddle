@@ -1,0 +1,6 @@
+#transform-topbar {
+  height: 32px;
+  width: 256px;
+  background-color: rgba(256, 256, 256, 0.1);
+  z-index: 1;
+}
