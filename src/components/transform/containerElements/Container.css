@@ -1,4 +1,4 @@
-#transform-container {
+#container {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@
   width: 256px;
 }
 
-#transform-container::before {
+#container::before {
   content: "";
   position: absolute;
   top: -2px;
@@ -25,7 +25,7 @@
   border-radius: calc(15.5px + 2px);
   z-index: -1;
 }
-#transform-container::after {
+#container::after {
   content: "";
   position: absolute;
   top: -2px;
