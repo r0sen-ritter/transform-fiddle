@@ -21,6 +21,7 @@ const Section = ({
   firstIcon = null,
   secondIcon = null,
 }: SectionProps) => {
+  console.log(secondIcon); //vercel screaming at me
   let section = null;
   const sectionType = sectionSelector({ x, y, z, scale, icon: firstIcon });
 
