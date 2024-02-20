@@ -1,0 +1,12 @@
+.section-element-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.section-element-wrapper > h4 {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 1%;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+}

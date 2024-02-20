@@ -1,14 +1,15 @@
 import sectionSelector from "../../../utils/SectionSelector";
 import ThreeCoordinates from "./sectionFactory/ThreeCoordinates";
+import "./Section.css";
 
 interface SectionProps {
   name: string;
   x: boolean;
   y: boolean;
-  z: boolean;
-  scale: boolean;
-  firstIcon: string;
-  secondIcon: string;
+  z?: boolean;
+  scale?: boolean;
+  firstIcon?: string | null;
+  secondIcon?: string | null;
 }
 
 const Section = ({
@@ -24,7 +25,7 @@ const Section = ({
   const sectionType = sectionSelector({ x, y, z, scale, icon: firstIcon });
 
   if (sectionType === "ThreeCoordinates") {
-    section = <ThreeCoordinates />;
+    section = <ThreeCoordinates title={name} />;
   }
 
   return <div id="section">{section}</div>;

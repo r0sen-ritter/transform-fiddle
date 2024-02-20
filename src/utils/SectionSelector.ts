@@ -3,11 +3,11 @@ interface SectionSelectorProps {
   y: boolean;
   z: boolean;
   scale: boolean;
-  icon: string;
+  icon: string | null;
 }
 
 const sectionSelector = ({ x, y, z, scale, icon }: SectionSelectorProps) => {
-  if (x && y && z && scale) {
+  if (x && y && z && scale && icon) {
     return "ScaleIcon";
   }
   if (x && y && z && !scale && !icon) {
