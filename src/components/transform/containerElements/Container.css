@@ -6,8 +6,8 @@
   background: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)),
     linear-gradient(135deg, #728cba 20%, #ffc3b8);
   border-radius: 15.5px;
-  height: 763px;
-  width: 252px;
+  height: 767px;
+  width: 256px;
 }
 
 #container::before {
