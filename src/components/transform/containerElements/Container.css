@@ -36,4 +36,5 @@
     linear-gradient(135deg, #728cba 20%, #ffc3b8);
   border-radius: calc(15.5px + 2px);
   z-index: -2;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
