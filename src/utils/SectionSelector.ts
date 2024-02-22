@@ -3,7 +3,7 @@ interface SectionSelectorProps {
   y: boolean;
   z: boolean;
   scale: boolean;
-  icon: string | null;
+  icon: string;
 }
 
 const sectionSelector = ({ x, y, z, scale, icon }: SectionSelectorProps) => {

@@ -1,0 +1,51 @@
+#parameter-field-wrapper {
+  display: flex;
+  width: 75%;
+  position: relative;
+  gap: 30px;
+}
+
+.fields-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: space-evenly;
+  width: 100px;
+}
+.fields-wrapper-xyz {
+  justify-content: space-between;
+}
+.field {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.param {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 1%;
+  color: rgba(255, 255, 255, 0.5);
+}
+.param-type {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.param-value {
+  color: white;
+}
+
+.param-name {
+  margin-right: 4px;
+}
+#scale-image {
+  height: 42px;
+  width: 24px;
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  top: 33%;
+  left: 33%;
+  transform: translate(-30%, -30%);
+}

@@ -5,3 +5,10 @@
   margin-bottom: 8px;
   display: flex;
 }
+
+#section-no-bottom {
+  width: 224px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  display: flex;
+}
