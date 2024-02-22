@@ -2,7 +2,7 @@ import "./ParameterWrapper.css";
 
 interface ParameterWrapperProps {
   title: string;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 const ParameterWrapper = ({ title, children }: ParameterWrapperProps) => {
   return (

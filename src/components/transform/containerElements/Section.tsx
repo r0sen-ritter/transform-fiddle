@@ -6,9 +6,9 @@ import ScaleIcon from "./sectionFactory/ScaleIcon";
 import TwoCoordinates from "./sectionFactory/TwoCoordinates";
 
 interface SectionProps {
-  name: string;
-  x: boolean;
-  y: boolean;
+  name?: string;
+  x?: boolean;
+  y?: boolean;
   z?: boolean;
   scale?: boolean;
   firstIcon?: string;
@@ -19,10 +19,11 @@ interface SectionProps {
   yType?: string;
   zVal?: string;
   zType?: string;
+  children?: React.ReactNode;
 }
 
 const Section = ({
-  name,
+  name = "none",
   x,
   y,
   z = false,
@@ -35,6 +36,7 @@ const Section = ({
   yType,
   zVal,
   zType,
+  children,
 }: SectionProps) => {
   let section = null;
 
@@ -92,6 +94,16 @@ const Section = ({
           yVal={yVal}
           yType={yType}
         />
+      </div>
+    );
+  }
+
+  if (sectionType === null) {
+    return (
+      <div id="section">
+        <div style={{ display: "flex", flexDirection: "column" }}>
+          {children}
+        </div>
       </div>
     );
   }

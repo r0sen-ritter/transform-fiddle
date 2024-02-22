@@ -7,6 +7,8 @@ import SecondIcon1 from "/Group 12.png";
 import FirstIcon2 from "/resize_1.png";
 import SecondIcon2 from "/resize_2.png";
 import TransformOrigin from "./containerElements/TransformOrigin";
+import ThreeDTransformation from "./containerElements/ThreeDTransformation";
+import PerspectiveOrigin from "./containerElements/PerspectiveOrigin";
 
 const Transform = () => {
   return (
@@ -59,6 +61,8 @@ const Transform = () => {
         yType="deg"
       />
       <TransformOrigin />
+      <ThreeDTransformation />
+      <PerspectiveOrigin />
     </Container>
   );
 };

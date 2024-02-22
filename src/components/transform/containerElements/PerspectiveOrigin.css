@@ -1,0 +1,110 @@
+#perspective-wrapper {
+  display: flex;
+  width: 224px;
+  padding-bottom: 12px;
+  margin-bottom: 8px;
+}
+#box-wrapper {
+  display: flex;
+  width: 224px;
+  height: 72px;
+  align-items: center;
+  gap: 20px;
+  margin-top: 4px;
+}
+
+#block {
+  height: 72px;
+  width: 72px;
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 4px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+.block-group {
+  display: flex;
+}
+.block-element {
+  height: 24px;
+  width: 24px;
+  display: flex;
+}
+.symbol {
+  height: 8px;
+  width: 8px;
+}
+.symbol-middle {
+  height: 13px;
+  width: 13px;
+}
+.top-left {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.top-middle {
+  align-items: flex-start;
+  justify-content: center;
+}
+.top-right {
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.middle-left {
+  align-items: center;
+  justify-content: flex-start;
+}
+.middle-middle {
+  align-items: center;
+  justify-content: center;
+}
+.middle-right {
+  align-items: center;
+  justify-content: flex-end;
+}
+.bottom-left {
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.bottom-middle {
+  align-items: flex-end;
+  justify-content: center;
+}
+.bottom-right {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+#controller-wrapper {
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+}
+.controller-item-block {
+  display: flex;
+}
+.controller-icon-box {
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.direction {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 1%;
+  color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+}
+.direction-value {
+  color: white;
+  margin-left: 8px;
+  font-weight: 400;
+}
+.direction-type {
+  margin-left: 4px;
+  font-weight: 400;
+}

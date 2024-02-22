@@ -1,0 +1,22 @@
+#d-transform {
+  width: 224px;
+  height: 32px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#d-transform-text {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 1%;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#d-field-wrapper {
+  display: flex;
+  gap: 50px;
+  width: 75%;
+}

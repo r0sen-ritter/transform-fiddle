@@ -57,8 +57,6 @@ const ParameterField = ({
     );
   }
 
-  console.log(scale);
-
   return (
     <div id="parameter-field-wrapper">
       <XYBlock xVal={xVal} xType={xType} yVal={yVal} yType={yType} />
